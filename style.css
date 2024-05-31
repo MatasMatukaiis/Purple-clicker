@@ -1,0 +1,74 @@
+body {
+    background-color: #4d4d4d;
+    color: #ffffff;
+    font-size: 2vh;
+}
+h1 {
+    text-align: center;
+}
+#upgrade1 {
+    background-color: #ff2828;
+    color: #ffffff;
+    height: 2.5vh;
+    width: 5vh;
+    font-size: 1.5vh;
+}
+#upgrade1:hover, #upgrade2:hover, #scorer1:hover, #scorer2:hover {
+    box-shadow: 1vh 1vh 1vh #00000060;
+} 
+#upgrade2 {
+    background-color: #3485ff;
+    color: #ffffff;
+    height: 2.5vh;
+    width: 5vh;
+    font-size: 1.5vh;
+}
+#scorer1, #scorer2 {
+    height: 2.5vh;
+    width: 5vh;
+    font-size: 1.5vh;
+}
+#purpleBall, #purpleBall img  {
+    border-radius: 50%;
+}
+.buttonText {
+    display: inline-block;
+}
+.fuck {
+    background-color: white;
+    color: white;
+    animation-name: RAINBOW;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes RAINBOW {
+    0%   {background-color: #ff0000;}
+    5%   {background-color: #fbff00;}
+    10%  {background-color: #2bff00;}
+    15%  {background-color: #00ffea;}
+    20%  {background-color: #0044ff;}
+    25%  {background-color: #9900ff;}
+    30%  {background-color: #ff00bf;}
+    35%  {background-color: #ff0000;}
+    40%  {background-color: #0011ff;}
+    45%  {background-color: #7700ff;}
+    50%  {background-color: #ae00ff;}
+    55%  {background-color: #e100ff;}
+    60%  {background-color: #ff00c8;}
+    65%  {background-color: #ff0040;}
+    70%  {background-color: #ff0037;}
+    75%  {background-color: #ff9100;}
+    80%  {background-color: #ffe600;}
+    85%  {background-color: #9dff00;}
+    90%  {background-color: #00ff22;}
+    95%  {background-color: #00ffea;}
+    100% {background-color: #0400ff;}
+}
+#score {
+    text-align: center;
+}
+#purpleBall {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
